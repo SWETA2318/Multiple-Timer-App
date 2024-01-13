@@ -10,27 +10,27 @@
 <body>
 
     <!--main container-->
-    <main id="main_container">
-        <h1>Multiple Timer App</h1>
-       <form id="set_timer_container">
+    <main id="main-container">
+        <h1>Multiple Timers App</h1>
+        <form id="set_timer_container">
             <p>Set Time :</p>
             <div id="timer">
-                <div>
-                    <input type="number" name="hours" id="hours" placeholder="hh" min="0">
-                    :
-                    <input type="number" name="minutes" id="minutes" placeholder="mm" min="0" max="60">
-                    :
-                    <input type="number" name="seconds" id="seconds" placeholder="ss" min="0" max="60">
-                    
+                <input type="number" name="hours" id="hours" placeholder="hh" min="0">
+                :
+                <input type="number" name="minutes" id="minutes" placeholder="mm" min="0" max="60">
+                :
+                <input type="number" name="seconds" id="seconds" placeholder="ss" min="0" max="60">
             </div>
-            <bUTTON id="set_timer_btn">set</bUTTON>
+            <button id="set_timer_btn">set</button>
         </form>
-        <div id="current_timers">Currrent Timers</div>
-        <!--TIMERS CONTAINER-->
-        <div id="timers_container">
-            <p id="timers_container_head">You have no timers currently!</p>
-        </div>
-     </main>
-      <script src="script.js"></script>
-</body>
-</html>
+        <div id="current_timers">Current Timers</div>
+        
+    <div id="timers_container">
+        <p id="timer_container_head">You have no timers currently!</p>
+    </div>
+    </main>
+
+
+    <script src="script.js"></script>
+    </body>
+    </html>
